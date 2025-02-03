@@ -21,7 +21,7 @@ function addLesson(name = "", term1 = [0, 0, 0, 0], term2 = [0, 0, 0, 0], hours 
         <input type="number" class="score term2" placeholder="Not 3" value="${term2[2]}">
         <input type="number" class="score term2" placeholder="Not 4" value="${term2[3]}">
 
-        <input type="number" class="weeklyHours" placeholder="Haftalık Saat" value="${hours}">
+        <input type="number" class="weeklyHours" placeholder="Ders saati" value="">
         <span class="average">Ortalama: 0</span>
         <button class="removeLesson">Kaldır</button>
     `;
