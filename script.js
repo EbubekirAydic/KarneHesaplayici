@@ -3,13 +3,13 @@ document.getElementById("calculate").addEventListener("click", calculateReportCa
 
 loadFromStorage();
 
-function addLesson(name = "", term1 = [0, 0, 0, 0], term2 = [0, 0, 0, 0], hours = 0) {
+function addLesson(name = "", term1 = ["","","",""], term2 = ["","","",""], hours = "") {
     const lessonContainer = document.createElement("div");
     lessonContainer.classList.add("lesson");
 
     lessonContainer.innerHTML = `
         <input type="text" placeholder="Ders Adı" class="lessonName" value="${name}">
-        <input type="number" class="weeklyHours" placeholder="Ders saati" value="">
+        <input type="number" class="weeklyHours" placeholder="Ders saati" value="${hours}">
         <h3>1. Dönem</h3>
         <input type="number" class="score term1" placeholder="Not 1" value="${term1[0]}">
         <input type="number" class="score term1" placeholder="Not 2" value="${term1[1]}">
