@@ -117,7 +117,7 @@ function karneHesapla() {
     });
 
     const genelOrtalama = toplamSaat > 0 ? (toplamPuan / toplamSaat).toFixed(2) : "Not Girilmedi";
-    document.getElementById("donem1").innerHTML = `1.Dönem: ${ortDonem1}`;
+    document.getElementById("donem1").innerHTML = `1.Dönem: ${ortDonem1 == null ? 0 : ortDonem1}`;
     document.getElementById("donem2").innerHTML = `2.dönem: ${ortDonem2 == null ? 0 : ortDonem2}`;
     document.getElementById("sonuc").innerHTML = `Karne Ortalaması: ${genelOrtalama}`;
 }
