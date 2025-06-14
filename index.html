@@ -10,15 +10,23 @@
 
     <title>Karne Hesaplama Oyunu</title>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <h1>Karne Hesaplama Oyunu</h1>
+    <h1>Karne Hesaplama</h1>
 
     <button id="dersEkle">Ders Ekle</button>
+
+    <input type="text" id="derslerInput" placeholder="Kaydı giriniz">
+    <button id="derslerEkle" style="background-color: rgb(89, 89, 151);">Dersler Ekle</button>
 
     <div id="dersler"></div>
 
@@ -29,6 +37,10 @@
     <h2 id="donem2"></h2>
 
     <h2 id="sonuc"></h2>
+
+    <button id="kopyala">Kaydını kopyala</button>
+
+    <p id="bilgi"></p>
 
     <script src="script.js"></script>
 

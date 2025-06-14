@@ -1,8 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 20px;
+
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
 }
 
 button {
@@ -32,27 +42,15 @@ button:hover {
 .ders {
     margin: auto;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 35px;
     width: 90%;
-    background: white;
 }
 
 input {
     padding: 5px;
     margin: 5px;
     width: 50px;
-    border-radius: 10px;
-    border: 3px solid #094da5;
-}
-
-.dersAdi{
-    width: 100px;
-    text-align: center;
-}
-
-.haftalikSaat{
-    text-align: center;
+    background-color: #00000000;
 }
 
 
@@ -60,4 +58,121 @@ input {
     font-weight: bold;
     margin-left: 10px;
     color: #d9534f;
+}
+
+.dersBilgi {
+    display: flex;
+}
+.dersBilgi p{
+    color: #2e2e2e;
+    border: none;
+    margin: 0;
+    
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.HDS{
+    width: 30px !important;
+    padding: 0;
+}
+
+
+
+
+
+.dersAdi{
+    color: #2e2e2e;
+    width: 100px;
+    border: none;
+    padding: 0px 4px;
+    
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.notlar {
+    border: 1px solid #e4e4e4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.notlar p{
+    margin: 0;
+    padding: 5px 0px;
+    border: 1px solid #e4e4e4;
+    background-color: #f3f3fb;
+    font-size: 17px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.isimTable{
+    color: #858585;
+}
+
+.nots{
+    color: #1e2e62;
+    font-weight: 100;
+    padding: 0 !important;
+}
+
+.notsOrt{
+    color: #1ea77d;
+}
+
+.puan{
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #1e2e62;
+    font-size: 17px;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    text-align: center;
+
+    padding: 0;
+    background-color: #ffffff00;
+    border: none;
+    overflow: hidden;
+    appearance: textfield;
+}
+
+.puan:focus {
+    outline: none;
+}
+
+.puan::-webkit-outer-spin-button,
+.puan::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sozlu{
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #f0f0f0;
+    width: 100%;
+    border-radius: 10px;
+    color: #1e2e62;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
