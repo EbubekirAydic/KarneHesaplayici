@@ -71,7 +71,7 @@ input {
     font-family: "Mukta", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .HDS{
@@ -85,14 +85,14 @@ input {
 
 .dersAdi{
     color: #2e2e2e;
-    width: 100px;
+    width: 150px;
     border: none;
-    padding: 0px 4px;
+    padding: 0px;
     
     font-family: "Mukta", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 
